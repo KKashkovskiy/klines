@@ -1,5 +1,9 @@
 package com.klines
 
-object Klines extends App{
+import com.klines.dataflow.{ServerTcp, TradesAggregationActor, Upstream}
 
+object Klines extends App {
+    TradesAggregationActor.ref
+    Upstream
+    ServerTcp
 }
